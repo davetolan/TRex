@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRex", "TRex\TRex.csproj", "{8BFC9A68-F332-4F9D-B5A4-CCD67A60DBC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRex.Tests", "TRex.Tests\TRex.Tests.csproj", "{F7CC1F42-38FF-4582-94B2-CB835ACFE2A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BFC9A68-F332-4F9D-B5A4-CCD67A60DBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFC9A68-F332-4F9D-B5A4-CCD67A60DBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFC9A68-F332-4F9D-B5A4-CCD67A60DBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFC9A68-F332-4F9D-B5A4-CCD67A60DBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CC1F42-38FF-4582-94B2-CB835ACFE2A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CC1F42-38FF-4582-94B2-CB835ACFE2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CC1F42-38FF-4582-94B2-CB835ACFE2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CC1F42-38FF-4582-94B2-CB835ACFE2A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C5E7195-C8AA-4A44-AC24-4D5B88A974F3}
+	EndGlobalSection
+EndGlobal
