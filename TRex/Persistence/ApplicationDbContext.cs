@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 using TRex.Models;
 
 namespace TRex.Persistence
@@ -14,5 +15,7 @@ namespace TRex.Persistence
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<RegularExpression> RegularExpressions { get; set; }
     }
 }

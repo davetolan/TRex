@@ -199,8 +199,13 @@
     <Compile Include="Migrations\201805050349135_InitialMigration.Designer.cs">
       <DependentUpon>201805050349135_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805070210543_CreateRegularExpressionTable.cs" />
+    <Compile Include="Migrations\201805070210543_CreateRegularExpressionTable.Designer.cs">
+      <DependentUpon>201805070210543_CreateRegularExpressionTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\RegularExpression.cs" />
     <Compile Include="Persistence\ApplicationDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -281,6 +286,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\Api\" />
     <Folder Include="DataAccess\" />
   </ItemGroup>
   <ItemGroup>
@@ -299,6 +305,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805050349135_InitialMigration.resx">
       <DependentUpon>201805050349135_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805070210543_CreateRegularExpressionTable.resx">
+      <DependentUpon>201805070210543_CreateRegularExpressionTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
